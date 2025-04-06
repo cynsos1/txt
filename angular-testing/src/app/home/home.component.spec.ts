@@ -9,8 +9,8 @@ describe('HomeComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
-        CommonModule,    // ✅ For *ngFor
-        HomeComponent    // ✅ Must be here if HomeComponent is standalone
+        CommonModule,    // 
+        HomeComponent    // 
       ]
     }).compileComponents();
 
